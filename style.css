@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    background-color: #1B1464;
+    color: #ED1E79;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+}
+
+section {
+    height: 100%;
+    min-height: 400px;
+}
+
+.logo img{
+    width: 50vw;
+    max-width: 350px;
+    height: auto;
+    z-index: -1;
+}
+
+.introduction {
+    padding: 20px;
+    margin: 20px;
+}
+
+.icon {
+    width: 70px;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.icon:hover {
+    opacity: 0.8;
+}
+
+.iconcont {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.iconcont > div {
+    width: 90px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.twocircles {
+    fill:#ED1E79;
+    z-index: 0;
+    text-align: center;    
+}
+
+circle.circleone {
+    top: 50px;
+    left: 60px;
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+}
+
+circle.circltwo {
+    top: 40%;
+    left: 20%;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transform: translateX(20%);
+    -ms-transform: translateX(20%);
+    transform: translatex(20%);
+}
+
+a {
+    color: #ED1E79;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
