@@ -24,9 +24,8 @@ section {
 
 .introduction {
     padding: 20px;
-    margin: 20px;
+    margin: 0;
     background-color: #ffffff;
-    width: 100%;
 }
 
 .icon {
